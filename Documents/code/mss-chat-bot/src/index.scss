@@ -1,0 +1,15 @@
+.scrollable-container {
+    overflow: hidden;
+  }
+
+.btn-icon-chatbot{
+    border-radius: 100% !important;
+    width: 80px !important;
+    height: 80px !important;
+    background: #1890FF !important;
+    opacity: 0.5;
+}
+
+.btn-icon-chatbot:hover{
+  opacity: 1;
+}

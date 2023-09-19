@@ -1,0 +1,3 @@
+[submodule "Documents/code/mss-chat-bot/Documents/code/mss-chat-bot/mss-chat-bot"]
+	path = Documents/code/mss-chat-bot/Documents/code/mss-chat-bot/mss-chat-bot
+	url = https://github.com/Meperia/mss-chat-bot

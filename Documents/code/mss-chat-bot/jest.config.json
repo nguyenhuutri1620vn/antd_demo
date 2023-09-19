@@ -1,0 +1,27 @@
+{
+  "name": "mss-shwme",
+  "collectCoverage": true,
+  "moduleNameMapper": {
+    "^src/(.*)": ["<rootDir>/src/$1"],
+    "^styles/(.*)": "<rootDir>/src/styles/$1",
+    "\\.(css|scss)$": "identity-obj-proxy"
+  },
+  "coverageReporters": ["text"],
+  "coverageThreshold": {
+    "global": {
+      "branches": 0,
+      "functions": 0,
+      "lines": 0,
+      "statements": 0
+    }
+  },
+  "collectCoverageFrom": [
+    "<rootDir>/src/**/*.{ts,tsx}",
+    "!<rootDir>/src/index.tsx",
+    "!<rootDir>/src/**/services.ts",
+    "!<rootDir>/src/**/services/*.ts",
+    "!<rootDir>/src/reportWebVitals.ts"
+  ],
+  "transformIgnorePatterns": ["<rootDir>/bower_components/", "<rootDir>/node_modules/", "<rootDir>/node_modules/(?!axios)/"],
+  "testEnvironment": "jsdom"
+}
